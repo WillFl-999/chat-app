@@ -1,0 +1,46 @@
+.roomlist-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.roomlist-header {
+  margin-bottom: 1.5rem;
+}
+
+.roomlist-header h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.roomlist-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.room-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.room-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.room-icon {
+  font-size: 1.25rem;
+  color: var(--accent);
+}
+
+.room-name {
+  font-weight: 500;
+}

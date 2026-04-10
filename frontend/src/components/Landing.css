@@ -1,0 +1,85 @@
+.landing-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.landing-card {
+  background: var(--bg-secondary);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.landing-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.wave-emoji {
+  -webkit-text-fill-color: initial;
+  color: inherit;
+}
+
+.landing-subtitle {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.landing-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.landing-input {
+  padding: 0.875rem 1rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  color: var(--text-primary);
+  outline: none;
+  transition: border 0.2s;
+}
+
+.landing-input:focus {
+  border-color: var(--accent);
+}
+
+.landing-input.error {
+  border-color: #ef4444;
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 0.875rem;
+  text-align: left;
+}
+
+.landing-button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.875rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.landing-button:hover {
+  background: var(--accent-hover);
+}

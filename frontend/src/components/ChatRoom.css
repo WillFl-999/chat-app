@@ -1,0 +1,59 @@
+.chatroom {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.back-btn {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.back-btn:hover {
+  background: var(--bg-tertiary);
+}
+
+.room-info {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.room-info h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.user-count {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.chat-main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.5rem;
+  background: var(--bg-primary);
+}
