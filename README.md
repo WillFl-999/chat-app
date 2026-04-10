@@ -29,4 +29,4 @@ Acesse http://localhost:5173
 
 ## Variáveis de ambiente
 
-Crie um arquivo `.env` no backend baseado em `.env.example`.
+mongodbatlas
