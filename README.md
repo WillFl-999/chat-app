@@ -27,6 +27,5 @@ npm run dev
 
 Acesse http://localhost:5173
 
-## Variáveis de ambiente
 
 mongodbatlas
